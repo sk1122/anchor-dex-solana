@@ -31,7 +31,7 @@ describe("dex", () => {
       percentage: new anchor.BN(1)
     }
 
-    const tx = await program.methods.createLiquidityPools({fees}).accounts(
+    const tx = await program.methods.createLiquidityPools(fees).accounts(
       {
         authority: keypair.publicKey,
         liquidityPool: keypair.publicKey,
