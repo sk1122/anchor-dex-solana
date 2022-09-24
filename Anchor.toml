@@ -1,14 +1,18 @@
 [features]
 seeds = false
 skip-lint = false
+
 [programs.localnet]
-dex = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+dex = "BBf9Y9MctDrsip8ejGpfJhSXGacaYQEscesvAMVzKSsR"
+
+[programs.devnet]
+dex = "BBf9Y9MctDrsip8ejGpfJhSXGacaYQEscesvAMVzKSsR"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/satyam/.config/solana/id.json"
 
 [scripts]
